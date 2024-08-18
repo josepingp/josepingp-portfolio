@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\home;
+namespace App\View\Components;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class portfolio extends Component
+class CallToAction extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class portfolio extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.home.portfolio');
+        return view('components.call-to-action');
     }
 }

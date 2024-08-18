@@ -390,7 +390,7 @@ module.exports = plugin(
             DEFAULT: "#DFE4EA",
           },
           dark: {
-            DEFAULT: "#111928",
+            DEFAULT: "#0f172a",
             2: "#d9d9d9",
             3: "#374151",
             4: "#4B5563",
