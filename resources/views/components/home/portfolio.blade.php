@@ -1,5 +1,5 @@
-<section x-data="{
-    seletedTab: 'all',
+<section id="portfolio" x-data="{
+    selectedTab: 'all',
     activeClasses: 'bg-primary text-white',
     inactiveClasses: 'text-body-color hover:bg-primary hover:text-white'
 }" class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
@@ -18,16 +18,16 @@
             <div class="w-full px-4">
                 <ul class="flex flex-wrap justify-center mb-12 space-x-1">
                     <li class="mb-1">
-                        <button @click="seletedTab = 'all'"
-                            :class="seletedTab === 'all' ? activeClasses : inactiveClasses"
+                        <button @click="selectedTab = 'all' "
+                            :class="selectedTab === 'all' ? activeClasses : inactiveClasses"
                             class="inline-block py-2 px-5 md:py-3 lg:px-8 rounded-lg text-base font-semibold text-center transition">
                             Todos los proyectos
                         </button>
                     </li>
                     @foreach ($tabs as $tab)
                         <li class="mb-1">
-                            <button @click="seletedTab = '{{ $tab }}'"
-                                :class="seletedTab === '{{ $tab }}' ? activeClasses : inactiveClasses"
+                            <button @click="selectedTab = '{{ $tab }}'"
+                                :class="selectedTab === '{{ $tab }}' ? activeClasses : inactiveClasses"
                                 class="inline-block py-2 px-5 md:py-3 lg:px-8 rounded-lg text-base font-semibold text-center transition">
 
                                 {{ $tab }}

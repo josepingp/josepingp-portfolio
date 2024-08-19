@@ -1,3 +1,13 @@
-<div>
-    <!-- If you do not have a consistent goal in life, you can not live it in a consistent way. - Marcus Aurelius -->
-</div>S
+<button
+    {{ $attributes->class([
+        'py-4 px-6 md:px-9 lg:px-6 xl:px-9 2xl:px-12 rounded leading-normal border inline-block transition',
+        'hover:bg-primary hover:border-primary hover:text-white' => $variant === 'outline-primary',
+        'hover:bg-red-700 hover:border-red-700 hover:text-white' => $variant === 'outline-red',
+        'bg-red-700 border-red-700 text-white hover:bg-red-800' => $variant === 'red',
+        'bg-gray-900 border-gray-700 font-semibold text-white hover:bg-gray-800' => $variant === 'dark',
+        'bg-primary border-primary text-white hover:bg-primary/90' => $variant === 'primary',
+    ]) }}">
+
+    {{ $slot }}
+
+</button>
