@@ -1,7 +1,7 @@
 {{-- ==== Navbar Section Start	==== --}}
 
 <header x-data="{ navbarOpen: false }"
-    class="fixed left-0 top-0 z-50 bg-gray-200 w-full flex items-center shadow-md dark:bg-gray-700 h-32">
+    class="fixed left-0 top-0 z-50 bg-[#0F172A] w-full flex items-center shadow-md dark:bg-[#0F172A] text-[#d9d9d9] h-32">
 
     <div class="container w-full">
         <div class="flex items-center justify-between -mx-4">
@@ -18,7 +18,7 @@
                     x-bind:class="navbarOpen && 'navbarTogglerActive'">
                 </x-layout.navbar-hamburger>
                 <nav :class="!navbarOpen && 'hidden'" id="navbarCollapse"
-                    class="absolute left-0 top-[90%] bg-gray-200 py-6 px-6 z-50 shadow rounded-lg w-[100svw] dark:bg-gray-700 dark:text-[#d9d9d9] lg:px-0 lg:max-w-full lg:block lg:w-full lg:right-4 lg:static lg:shadow-none">
+                    class="absolute left-0 top-[90%] bg-[#0F172A] py-6 px-6 z-50 shadow rounded-lg w-[100svw] dark:bg-[#0F172A] text-[#d9d9d9] lg:px-0 lg:max-w-full lg:block lg:w-full lg:right-4 lg:static lg:shadow-none">
 
                     <ul class="block lg:flex lg:items-center justify-end ">
                         @foreach ($navigationItems as $item)

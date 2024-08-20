@@ -12,8 +12,8 @@
 
 </head>
 
-<body class="antialiased text-gray-800 dark:text-dark-2">
-    <div class="min-h-screen dark:bg-slate-800 pt-32 bg-white">
+<body class="antialiased text-slate-800 dark:text-dark-2">
+    <div class="min-h-screen dark:bg-slate-900 pt-32 bg-white">
 
 
         <x-layout.navbar></x-layout.navbar>
