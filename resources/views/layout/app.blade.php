@@ -13,7 +13,7 @@
 </head>
 
 <body class="antialiased text-gray-800 dark:text-dark-2">
-    <div class="min-h-screen dark:bg-slate-800 pt-32 bg-white">
+    <div class="min-h-screen dark:bg-page-700 bg-page-50 p-0 m-0">
 
 
         <x-layout.navbar></x-layout.navbar>
