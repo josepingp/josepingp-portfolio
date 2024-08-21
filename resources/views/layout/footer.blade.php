@@ -1,7 +1,7 @@
-<footer class="bg-gray-200 dark:bg-gray-700 py-4 relative z-10 px-6">
+<footer class="bg-page-500 py-4 relative z-10 px-6">
     <div class="container">
         <div class="flex flex-wrap md:justify-between justify-evenly">
-            <span class="inline-flex items-center text-xl">
+            <span class="inline-flex items-center text-xl text-dark-2">
                 Sigueme en Redes Sociales
             </span>
             <x-social-icons></x-social-icons>

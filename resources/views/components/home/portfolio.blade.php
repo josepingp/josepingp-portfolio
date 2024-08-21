@@ -2,13 +2,13 @@
     selectedTab: 'all',
     activeClasses: 'bg-primary text-white',
     inactiveClasses: 'text-body-color hover:bg-primary hover:text-white'
-}" class="pt-20 lg:pt-[120px] pb-12 lg:pb-[90px]">
+}" class=" lg:pt-[120px] pb-12 lg:pb-[90px] dark:bg-slate-900 bg-page-50">
 
-    <div class="container">
+    <div class="container pt-20">
         <div class="flex flex-wrap mx-4">
             <div class="w-full px-4">
                 <div class="text-center mx-auto mb-[60px] max-w-[510px]">
-                    <h2 class="font-bold text-dark dark:text-gray-2 text-3xl sm:text-4xl md:text-[42px]">
+                    <h2 class="font-bold text-dark dark:text-dark-2 text-3xl sm:text-4xl md:text-[42px]">
                         Mis últimos proyectos
                     </h2>
                 </div>

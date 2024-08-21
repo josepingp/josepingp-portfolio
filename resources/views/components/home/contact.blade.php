@@ -1,17 +1,17 @@
 <!-- ====== Contact Section Start -->
-<section class="relative z-10 overflow-hidden bg-white dark:bg-slate-800 py-20 lg:py-[120px]">
+<section id="contact" class="relative z-10 overflow-hidden bg-white dark:bg-page-600 py-20 lg:py-[120px]">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4 lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
                 <div class="mb-12 max-w-[570px] lg:mb-0">
                     <h2
-                        class="text-dark dark:text-white mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                        GET IN TOUCH WITH US
+                        class="text-dark dark:text-dark-2 mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+                        Contacto
                     </h2>
-                    <p class="text-base leading-relaxed text-body-color dark:text-dark-6 mb-9">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                        eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                        adiqua minim veniam quis nostrud exercitation ullamco
+                    <p class="text-base leading-relaxed text-body-color dark:text-dark-2 mb-9">
+                        Con mi experiencia en desarrollo web y mi pasión por crear soluciones innovadoras, estoy siempre
+                        buscando nuevos desafíos. Si tienes un proyecto que requiera de un desarrollador full-stack, con
+                        mis habilidades, ¡estaré encantado de colaborar contigo!
                     </p>
                     <div class="mb-8 flex w-full max-w-[370px]">
                         <div
@@ -37,10 +37,10 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mb-1 text-xl font-bold text-dark dark:text-white">
+                            <h4 class="mb-1 text-xl font-bold text-dark dark:text-dark-2">
                                 Telefono
                             </h4>
-                            <p class="text-base text-body-color dark:text-dark-6">
+                            <p class="text-base text-body-color dark:text-dark-2">
                                 (+34) 658 780 643
                             </p>
                         </div>
@@ -56,10 +56,10 @@
                             </svg>
                         </div>
                         <div class="w-full">
-                            <h4 class="mb-1 text-xl font-bold text-dark dark:text-white">
+                            <h4 class="mb-1 text-xl font-bold text-dark dark:text-dark-2">
                                 Email
                             </h4>
-                            <p class="text-base text-body-color dark:text-dark-6">
+                            <p class="text-base text-body-color dark:text-dark-2">
                                 josepingp@gmail.com
                             </p>
                         </div>
