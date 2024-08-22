@@ -9,4 +9,4 @@ Route::get('/', function () {
 });
 
 Route::post('/contact/submit', [ContactController::class, 'submit']);
-Route::get('/cv', [CVController::class, 'downloadCV']);
+Route::get('/cv', [CVController::class, 'download']);

@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class CVController extends Controller
 {
-	public function downloadCV()
+
+	public function download()
 	{
 		return response()->download("./img/Curriculum_Jose_Luis_Garcia_Pelayo.pdf");
 	}

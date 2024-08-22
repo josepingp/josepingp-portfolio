@@ -1,5 +1,5 @@
 <!-- ====== Brands Section Start -->
-<section class="bg-white py-20 lg:py-[120px] dark:bg-page-600 w-full">
+<section class="bg-white pt-20 lg:pt-[120px] dark:bg-page-600 w-full">
     <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap mb-4">
             <div class="w-full px-4">
@@ -41,7 +41,7 @@
         <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4">
                 <h2
-                    class="text-dark text-center dark:text-dark-2 font-bold text-3xl sm:text-4xl mb-6 leading-tight sm:mb-8 lg:mb-0">
+                    class="text-dark text-center dark:text-dark-2 font-bold text-3xl sm:text-4xl leading-tight sm:mb-8 lg:mb-0">
                     Herramientas
                 </h2>
                 <div class="flex flex-wrap items-center justify-center">
