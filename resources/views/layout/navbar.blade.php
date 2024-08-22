@@ -1,5 +1,6 @@
 {{-- ==== Navbar Section Start	==== --}}
 
+
 <header x-data="{ navbarOpen: false }" class="sticky top-0 z-50 bg-page-500 w-full flex items-center shadow-md h-30">
 
     <div class="container w-full">
@@ -19,6 +20,7 @@
                     x-bind:class="navbarOpen && 'navbarTogglerActive'">
                 </x-layout.navbar-hamburger>
                 <nav :class="!navbarOpen && 'hidden'" id="navbarCollapse"
+
                     class="absolute left-0 top-[90%] bg-page-500 py-6 px-6 z-50 shadow rounded-lg w-[100svw] lg:px-0 lg:max-w-full lg:block lg:w-full lg:right-4 lg:static lg:shadow-none">
 
                     <ul class="block lg:flex lg:items-center justify-end ">
