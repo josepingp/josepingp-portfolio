@@ -14,7 +14,8 @@
             <h3 class="font-bold text-xl text-dark dark:text-gray-2 mb-4">
                 {{ $title }}
             </h3>
-            <x-button-link :href="$url" variant="outline-primary">Detalles</x-button-link>
+            <x-button-link :href="$url" variant="primary">Demo</x-button-link>
+            <x-button-link :href="$url" variant="outline-primary">Repositorio</x-button-link>
 
         </div>
     </div>

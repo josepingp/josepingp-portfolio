@@ -1,4 +1,4 @@
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-page-50 dark:bg-slate-900">
+<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-page-50 dark:bg-slate-900 mt-28">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full lg:w-5/12 px-4">
@@ -25,7 +25,7 @@
                             </x-button-link>
                         </li>
                         <li>
-                            <x-button-link href="#proyectos" variant="outline-primary" class="rounded-lg">
+                            <x-button-link href="/cv" variant="outline-primary" class="rounded-lg">
                                 Descargar CV
                             </x-button-link>
                         </li>
