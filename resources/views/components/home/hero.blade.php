@@ -1,4 +1,4 @@
-<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-slate-800">
+<div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-page-50 dark:bg-slate-900">
     <div class="container">
         <div class="flex flex-wrap -mx-4">
             <div class="w-full lg:w-5/12 px-4">
@@ -6,39 +6,33 @@
                     <h1
                         class="text-dark dark:text-dark-2 font-bold text-4xl lg:text-7xl sm:text-[42px] xl:text-[48px] leading-snug mb-6">
 
-                        En JP WEB creamos
-                        <span class="rounded-md text-amber-600"> soluciones.
+                        Hola soy Jose Pelayo,
+                        <span class="rounded-md text-primary font-bold"> desarrollador web.
                         </span>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px] mt-4">
-                        Convertimos tus ideas en realidad. Cuéntanos tu visión, y nosotros nos encargaremos de diseñar y
-                        desarrollar la solución perfecta, utilizando las tecnologías más avanzadas.
-                        <br><br>
-                        Diseñamos y creamos junto a nuestros clientes, siguiendo las mejores prácticas y buscando
-                        siempre las soluciones más óptimas para que tus proyectos sean eficientes y exitosos a largo
-                        plazo.
+                        Soy un desarrollador web con amplia experiencia en la creación de aplicaciones web
+                        personalizadas. Mi pasión por la tecnología me ha llevado a dominar frameworks como Laravel y
+                        Vue.js, y a profundizar en los principios solid. He desarrollado diversos proyectos, siempre
+                        buscando soluciones innovadoras y
+                        eficientes que satisfagan las necesidades de los clientes. Soy un colaborador comprometido y
+                        disfruto trabajando en equipo para alcanzar objetivos comunes.
                     </p>
-                    <h1
-                        class="text-dark dark:text-dark-2 font-bold text-3xl lg:text-6xl sm:text-[42px] xl:text-[42px] leading-snug mb-6">
-
-                        Dale vida a tus proyectos.
-                        <span class="rounded-md text-amber-600"> ¡Comencemos hoy!</span>
-                    </h1>
                     <ul class="flex flex-wrap gap-4 items-center">
                         <li>
-                            <x-button-link href="#proyectos" variant="primary" class="rounded-lg">
+                            <x-button-link href="#contact" variant="primary" class="rounded-lg">
                                 Contacto
                             </x-button-link>
                         </li>
                         <li>
-                            <x-button-link href="#proyectos" variant="primary-outline" class="rounded-lg">
-                                Mis proyectos
+                            <x-button-link href="#proyectos" variant="outline-primary" class="rounded-lg">
+                                Descargar CV
                             </x-button-link>
                         </li>
                     </ul>
                     <div class="clients pt-16">
                         <h6 class="font-normal text-sm flex items-center text-dark dark:text-gray-2 mb-4 ml-3">
-                            Siguenos en Redes Sociales
+                            Sigueme en Redes Sociales
                             <span class="w-12 h-[1px] bg-body-color inline-block ml-2">
                             </span>
                         </h6>

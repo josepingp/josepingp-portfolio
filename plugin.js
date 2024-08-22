@@ -381,7 +381,7 @@ module.exports = plugin(
         },
         colors: {
           primary: {
-            DEFAULT: "#3c589b",
+            DEFAULT: "#0565FF",
           },
           secondary: {
             DEFAULT: "#13C296",
@@ -399,6 +399,19 @@ module.exports = plugin(
             7: "#D1D5DB",
             8: "#E5E7EB",
           },
+						page: {
+							50: "#E4E9F1",
+							100: "#C9D3E4",
+							200: "#8FA4C6",
+							300: "#5979AB",
+							400: "#3A5073",
+							500: "#1E293B",
+							600: "#18212F",
+							700: "#131A25",
+							800: "#0C1018",
+							900: "#07090E",
+							950: "#030507"
+						},
           black: {
             ...colors.black,
             DEFAULT: "#212B36",
