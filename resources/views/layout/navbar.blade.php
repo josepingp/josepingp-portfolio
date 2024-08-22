@@ -1,5 +1,4 @@
 {{-- ==== Navbar Section Start	==== --}}
-
 <header x-data="{ navbarOpen: false }" class="fixed top-0 z-50 bg-page-500 w-full flex items-center shadow-md h-18">
 
     <div class="container w-full">
